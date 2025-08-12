@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Translari</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+  <a href="#home">HOME <span></span></a>
+  <a href="#sobre">SOBRE MIM <span></span></a>
+  <a href="#serviços">PROJETOS <span></span></a>
+  <a href="#contato">CONTATO <span></span></a>
+</nav></header>
+<main>
+    <section id="home">
+    <div class="container">
+        <div class="slide">
+            <div class="item">
+                <div class="content">
+                    <div class="name">Assistente virtual</div>
+                    <div class="des">Luna é uma assistente virtual projetada para conversação, reconhecimento facial e em breve muito mais!!!</div>
+                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Saber mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">Leitor PDF</div>
+                    <div class="des">Leitor de PDFs</div>
+                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">Análise de dados</div>
+                    <div class="des">Esse automatizador de análise de dados para suas tabelas do excel</div>
+                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">Assistente médica</div>
+                    <div class="des">,,,</div>
+                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">Área do aluno unifecaf</div>
+                    <div class="des">Projeto do Hackathon Unifecaf 2025, com medidores de progresso, assistente virtual e muito mais!</div>
+                    <button class="open-modal-btn" data-video="https://youtu.be/QZX3sNQdS4I">Veja mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">...</div>
+                    <div class="des">;;;</div>
+                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-card">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <div class="video-container">
+                <iframe id="video-iframe" width="560" height="315" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+    <script src="static/script.js"></script>
+</body>
+</html>
